@@ -1,10 +1,10 @@
 public class BridgeTest {//тест
 
     public static void main(String[] args) {
-        Car sportCar = new SportCar(new SportEngine());
-        sportCar.setEngine();
+        AbstractCar sportAbstractCar = new SportCar(new SportEngine());
+        sportAbstractCar.setEngine();
         System.out.println();
-        Car unknownCar = new UnknownCar(new UnknownEngine());
-        unknownCar.setEngine();
+        AbstractCar unknownAbstractCar = new UnknownCar(new UnknownEngine());
+        unknownAbstractCar.setEngine();
     }
 }

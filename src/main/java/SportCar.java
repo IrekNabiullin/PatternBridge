@@ -1,4 +1,4 @@
-public class SportCar extends Car {
+public class SportCar extends AbstractCar {
     public SportCar(Engine engine) {
         super(engine);
     }

@@ -1,4 +1,4 @@
-public class UnknownCar extends Car {
+public class UnknownCar extends AbstractCar {
     public UnknownCar(Engine engine) {
         super(engine);
     }

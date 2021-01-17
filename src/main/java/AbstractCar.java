@@ -1,7 +1,7 @@
-abstract class Car {
+abstract class AbstractCar {
     protected Engine engine;
 
-    public Car(Engine engine) {
+    public AbstractCar(Engine engine) {
         this.engine = engine;
     }
 
